@@ -1,6 +1,4 @@
-Here is a simple C program to check whether a number is odd or even:
-C#include <stdio.h>
-
+#include <stdio.h>
 int main() {
     int number;
 
