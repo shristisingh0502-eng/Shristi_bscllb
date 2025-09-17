@@ -5,7 +5,6 @@ int main()
     int a, b, max;
     printf("Enter two numbers : ");
     scanf("%d %d" , &a, &b);
-    // using conditinal operator
     max = (a > b) ? a : b;
     printf("Maximum nuber is : %d\n",max);
 
