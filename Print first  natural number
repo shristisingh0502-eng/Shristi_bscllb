@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main()
+{
+int counter,n;
+printf("Enter value of n\t");
+scanf("%d", &n);
+for (counter = 1;counter<=n;counter++)
+printf("%d\n",counter);
+}
