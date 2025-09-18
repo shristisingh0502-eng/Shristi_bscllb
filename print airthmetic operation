@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main() {
+   int a = 15, b = 4; 
+   int result;
+   result = a + b;
+   printf("Addition (a + b): %d\n", result);
+   result = a - b;
+   printf("Subtraction (a - b): %d\n", result);
+   result = a * b;
+   printf("Multiplication (a * b): %d\n", result);
+   result = a / b; // Integer division
+   printf("Division (a / b): %d\n", result);
+   result = a % b;
+   printf("Modulus (a %% b): %d\n", result);
+   return 0;
+}
