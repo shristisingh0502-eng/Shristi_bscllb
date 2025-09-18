@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main()
+{
+float P,R,T,SI;
+int i;
+printf("Simple intrest calculation for 3 sets of value\n");
+for(i=1; i<=3; i++)
+{
+    printf("\nEnter Principal,Rate,and Time for sets of %d:",i);
+    scanf("%f %f %f", &P, &R, &T);
+    SI = (P*R*T)/100;
+    {
+       printf("Simple intrest for set %d = %.2f\n", i, SI);
+
+}
+
+    return 0;
+}
+}
