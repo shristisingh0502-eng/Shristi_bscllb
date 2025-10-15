@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+int main()
+{
+    int arr[10], i, searchValue, found = 0;
+    printf("Enter 10 integers\n");
+    for (i = 0; i < 10; i++)
+    {
+        scanf("%d", &arr[i]);
+    }
+    printf("Enter the value to search for");
+    scanf("%d", &searchValue);
+    for (i = 0; i < 10; i++)
+    {
+        if (arr[i] == searchValue) 
+        {
+            found = 1;
+            break;
+        }
+    }
+    if (found) 
+{
+        printf("The value %d is present in the array.\n", searchValue);
+    } else
+{
+        printf("The value %d is not present in the array.\n", searchValue);
+    }
+
+    return 0;
+}
